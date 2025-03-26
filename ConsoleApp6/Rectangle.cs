@@ -36,12 +36,8 @@ namespace ConsoleApp6
         }
         public override void Print()
         {
-            // Сначала вызов метода базового класса
             base.Print();
-
-            // Затем добавим вывод дополнительных полей
-            Console.WriteLine($"Сторона 1: {Side1}");
-            Console.WriteLine($"Сторона 2: {Side2}");
+            Console.WriteLine($"Сторонаы: {Side1}, {Side2}");
         }
     }
 }
