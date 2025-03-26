@@ -21,9 +21,15 @@ namespace ConsoleApp6
             set => side = value;
         }
 
-        public override double Area() => side * side;
+        public override double Area()
+        {
+        return side * side;
+        }
 
-        public override double Perimeter() => 4 * side;
+        public override double Perimeter()
+        {
+           return 4 * side;
+        }
 
         public override void Print()
         {
