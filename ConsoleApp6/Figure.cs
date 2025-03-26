@@ -26,8 +26,8 @@ namespace ConsoleApp6
       public virtual void Print()
       {
         Console.WriteLine($"Фигура: {Name}");
-        Console.WriteLine($"Площадь: {Area():F2}");
-        Console.WriteLine($"Периметр: {Perimeter():F2}");
+        Console.WriteLine($"Площадь: {Area()}");
+        Console.WriteLine($"Периметр: {Perimeter()}");
       }
     }
 }
